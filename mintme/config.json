@@ -15,12 +15,20 @@
     "threads": null,        // number of miner threads                                                           
     "pools": [
         {
-            "url": "web-ko1.gonspool.com:3332", // URL of mining server
-            "user": "0x046f8ef4c344780cbde1474e7a336380a159d6e6",               // username for mining server
-            "pass": "x",                         // password for mining server
-            "worker-id": "0",                    // worker ID for mining server
-            "keepalive": false,                  // send keepalived for prevent timeout (need pool support)
-            "nicehash": false
+                "url": "webchain.wattpool.net:3333",                     // URL of mining server -- verdiss
+                "user": "0x046f8ef4c344780cbde1474e7a336380a159d6e6",   // username for mining server
+                "pass": "x",                                            // password for mining server
+                "worker-id": "0",                                      // worker ID for mining server
+                "keepalive": false,
+                "nicehash": false
+        },
+        {
+                "url": "pool.webchain.network:3333",
+                "user": "0x046f8ef4c344780cbde1474e7a336380a159d6e6",
+                "pass": "x",
+                "worker-id": "0",
+                "keepalive": false,
+                "nicehash": false
         }
     ],
     "api": {
